@@ -1,6 +1,8 @@
 * {
   font-family: Roboto, sans-serif;
   font-style: normal;
+  margin: 0;
+  padding: 0;
 }
 header {
   background: #007765;
@@ -123,5 +125,57 @@ header {
   width: 1110px;
   margin-left: auto;
   margin-right: auto;
+}
 
+.team {
+  background: #EEEEEE;
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+.team-heading {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin-bottom: 56px;
+
+  text-align: center;
+  }
+.team-cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.team-cards-card-img {
+  margin-left: 66px;
+  margin-right: 66px;
+  margin-bottom: 12px;
+  width: 168px;
+  height: 168px;
+}
+.team-cards-card-h {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+.team-cards-card-p {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 82px;
+}
+footer {
+  background: #333333;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+.footer-p {
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
